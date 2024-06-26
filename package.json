@@ -1,0 +1,22 @@
+{
+  "name": "hometusk64",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ts:dev": "npx tsc -w",
+    "start:dev": "nodemon ./dist/test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.14.9",
+    "typescript": "^5.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
